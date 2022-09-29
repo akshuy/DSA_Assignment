@@ -1,3 +1,13 @@
+"""1.	arr = [1, 3, 7, 9, 12, 10, 8, 16, 18, 22, 27]
+Create a buildHeap method that returns a minheap.
+
+heapify(arr, n, i):
+	// Write your own code
+
+buildHeap(arr, n):
+	//Write your own code
+	heapify(arr, n, i)
+"""
 def heapify(arr,n,i):
     smallest = i
     l = 2 * i + 1        
