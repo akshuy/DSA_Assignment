@@ -8,7 +8,8 @@ Test Cases:
 Input: [0,0,0,1,1,1,1,1,1]
 Output: 3
 Explanation: 0 indicates a good version and 1 indicates a bad version. So, the index of
-the first 1 is at 3. Thus, the output is 3"""
+the first 1 is at 3. Thus, the output is 3
+"""
 
 # TODO Linear serch
 def linearsearch(myProj):
